@@ -1,0 +1,642 @@
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+body{
+    color: white;
+    background-color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo1{
+    width: 180px;
+}
+.logo1:hover{
+    transform: scale(1.2);
+}
+
+nav>ul>li{
+    display: inline-block;
+    list-style-type: none;
+    font-family: "Roboto";
+    font-size: 11px;
+    word-spacing: 5px;
+    padding: 10px;
+}
+nav>ul>li:hover{
+    color: #bfc500;
+    cursor: pointer;
+}
+.sec1{
+    width: 100%;
+    overflow: clip;
+}
+
+/* SECTION */
+
+.main-img{
+    width: 100%;
+}
+/* DIV1 */
+.div1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-group1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial;
+    font-weight: 800;
+}
+
+.text-group1>h1{
+    font-weight: 800;
+    font-size: 30px;
+}
+.text-group1>h1:hover{
+    color: #bfc500;
+    cursor: pointer;
+}
+
+.text-group1>p{
+    font-weight: 100;
+    font-family: "Roboto";
+}
+    
+
+.img-group1>img{
+    width: 200px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+/* DIV2 */
+
+.div2>h1{
+    color: #bfc500;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.div2>h3{
+    font-family: Arial;
+    font-weight: 300;
+}
+
+.div2>p{
+    font-family: Arial;
+}
+
+/* DIV3 */
+
+.div3{
+    background-color: #bfc500;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 0;
+}
+
+.div3>h1{
+    font-family: Arial;
+    color: black;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+}
+
+.div3>p{
+    color: black;
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+}
+
+.div3>h4{
+    color: #bfc500;
+    background-color: black;
+    border-radius: 10px;
+    font-family: Arial;
+    text-align: center;
+    width: 130px;
+    padding: 25px;
+}
+
+.div3>h4:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* DIV4 */
+
+.div4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-group2>h1{
+    font-family: Arial;
+    font-size: 28px;
+    width: 170px;
+}
+.text-group2>h1:hover{
+    color: #bfc500;
+    cursor: pointer;
+}
+
+.text-group2>p{
+    font-family: "Roboto";
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.img-group2>img{
+    width: 340px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+/* DIV5 */
+
+.text-group3>h1{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+}
+.text-group3>h1:hover{
+    color: #bfc500;
+    cursor: pointer;
+}
+
+.text-group3>p{
+    font-family: Arial;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.img-group3{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+
+.img-group3>.short-img{
+    display: flex;
+    flex-direction: column;
+    width: 110px;
+}
+
+.img-group3>.short-img>p{
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 100;
+}
+
+/* DIV6 */
+
+.div6{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-group4>h1{
+    font-family: Arial;
+    font-size: 28px;
+}
+.text-group4>h1:hover{
+    color: #bfc500;
+    cursor: pointer;
+}
+
+.text-group4>p{
+    font-family: "Roboto";
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.img-group4>img{
+    width: 180px;
+}
+
+/* DIV7 */
+
+.div7>h1{
+    font-family: Arial;
+    font-size: 35px;
+    width: 500px;
+}
+.div7>h1:hover{
+    color: #bfc500;
+    cursor: pointer;
+}
+
+.div7>p{
+    font-family: "Roboto";
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+/* DIV8 */
+
+.div8{
+    display: flex;
+    justify-content: space-between;
+}
+
+.last{
+    display: flex;
+    margin-left: 20px;
+}
+
+.last>h1{
+    color: #bfc500;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-right: 60px;
+}
+
+.last>p{
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 800;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.div8>img{
+    background-color: #bfc500;
+    height: 350px;
+}
+
+
+/* // Screen Size 1400px check*/
+@media (max-width: 1660px) { }
+
+/* // Screen Size 1200px check */
+@media (max-width: 1399px) { 
+    body {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .img-group1>img {
+        width: 180px;
+        margin-top: 40px;
+        margin-right: 16px;
+    }
+    .img-group2>img {
+        width: 315px;
+        margin-top: 20px;
+    }
+}
+
+/* // Screen Size 992px check  */
+@media (max-width: 1199px) {
+    body {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    .img-group1>img {
+        width: 118px;
+        margin-top: 20px;
+        margin-right: 8px;
+    }
+    .text-group1>h1 {
+        font-weight: 800;
+        font-size: 25px;
+    }
+    .text-group1>p {
+        font-size: 15px;
+    }
+    .img-group1>img {
+        margin-top: 20px;
+        margin-right: 14px;
+    }
+    .div2>h1 {
+        font-size: 28px;
+    }
+    .div2>h3 {
+        font-size: 14px;
+    }
+    .div2>p {
+        font-size: 14px;
+    }
+    .div3 {
+        height: 100px;
+    }
+    .div3>h4 {
+        width: 112px;
+        padding: 16px;
+        font-size: 14px;
+    }
+    nav>ul>li {
+        font-size: 10px;
+        word-spacing: 5px;
+        padding: 6px;
+    }
+    .text-group2>p {
+        font-size: 14px;
+        font-weight: 200;
+    }
+    .img-group2>img {
+        width: 277px;
+        margin-top: 20px;
+    }
+    .text-group3>h1 {
+        font-size: 27px;
+    }
+    .text-group3>p {
+        font-size: 15px;
+    }
+    .img-group3>.short-img {
+        width: 90px;
+    }
+    .text-group4>p {
+        font-size: 15px;
+    }
+    .img-group4>img {
+        width: 155px;
+    }
+    .div7>h1 {
+        font-size: 27px;
+    }
+    .div7>p {
+        font-size: 15px;
+    }
+    .last p{
+        font-size: 15px;
+    }
+    .last p {
+        font-size: 10px; 
+    }
+    .div8 br{
+        display: none;
+    }
+    .div8>img {
+        height: 270px;
+    }
+}
+
+/* // Screen Size 768px check */
+@media (max-width: 991px) {
+    body{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    nav>ul>li{
+        font-size: 8px;
+        padding: 5px;
+    }
+    .logo1{
+        width: 145px;
+    }
+    .text-group1>h1{
+        font-size: 18px;
+    }
+    .text-group1>p{
+        font-size: 12px;
+    }
+    .img-group1>img{
+        width: 90px;
+        margin-top: 14px;
+        margin-right: 5px;
+    }
+    .div2>h1{
+        font-size: 22px;
+    }
+    .div2>h3{
+        font-size: 12px;
+    }
+    .div2>p{
+        font-size: 12px;
+    }
+    .div3{
+        height: 90px;
+    }
+    .div3>p{
+        font-size: 11px;
+    }
+    .div3>h1{
+        font-size: 18px;
+    }
+    .div3>h4{
+        width: 95px;
+        padding: 15px;
+        font-size: 12px;
+    }
+    .text-group2>h1 {
+        font-size: 22px;
+    }
+    .text-group2>p {
+        font-size: 11px;
+    }
+    .img-group2>img {
+        width: 178px;
+        margin-top: 6px;
+    }
+    .text-group3>h1 {
+        font-size: 22px;
+    }
+    .text-group3>p{
+        font-size: 10px;
+    }
+    .img-group3>.short-img{
+        width: 80px;
+    }
+    .img-group3>.short-img>p {
+        font-size: 10px;
+    }
+    .img-group3 {
+        margin: 25px;
+    }
+    .text-group4>h1{
+        font-size: 22px;
+    }
+    .text-group4>p{
+        font-size: 10px;
+    }
+    .img-group4>img{
+        width: 110px;
+    }
+    .div7>h1{
+        font-size: 22px;
+    }
+    .div7>p{
+        font-size: 10px;
+    }
+    .last p{
+        font-size: 8px;
+    }
+    .div8>img {
+        height: 200px;
+    }
+    .last>h1 {
+        font-size: 14px;
+        margin-right: 52px;
+    }
+}
+
+/* // Screen Size 576px check */
+@media (max-width: 767px) {
+    body {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    nav{
+        display: inline-block;
+    }
+    .logo1 {
+        width: 130px;
+    }
+    nav>ul{
+        margin-top: 0;
+        text-align: center;
+    }
+    .main-logo{
+        width: 500px;
+        text-align: center;
+    }
+    nav>ul>li{
+        font-size: 8px;
+        padding: 4px;
+    }
+    .text-group1>h1 {
+        font-size: 16px;
+    }
+    .text-group1>p {
+        font-size: 9px;
+    }
+    .img-group1>img {
+        width: 66px;
+        margin-top: 7px;
+        margin-right: 2px;
+    }
+    .div2>h1 {
+        font-size: 18px;
+    }
+    .div2>h3 {
+        font-size: 10px;
+    }
+    .div2>p {
+        font-size: 10px;
+    }
+    .div3 {
+        height: 75px;
+    }
+
+    .div3>p {
+        font-size: 10px;
+    }
+    .div3>h4 {
+        width: 54px;
+        font-size: 8px;
+    }
+    .div3>h1 {
+        font-size: 15px;
+    }
+    .text-group2>h1 {
+        font-size: 20px;
+    }
+    .text-group2>p {
+        font-size: 10px;
+    }
+    .img-group2>img {
+        width: 150px;
+        margin-top: 15px;
+    }
+    .text-group3>h1 {
+        font-size: 18px;
+    }
+    .text-group3>p {
+        font-size: 9px;
+    }
+    .img-group3>.short-img {
+        width: 60px;
+    }
+    .img-group3>.short-img>p {
+        font-size: 7px;
+        font-weight: 200;
+    }
+    .text-group4>h1 {
+        font-size: 18px;
+    }
+    .text-group4>p {
+        font-size: 9px;
+    }
+    .img-group4>img {
+        width: 90px;
+    }
+    .div7>h1 {
+        font-size: 18px;
+    }
+    .div7>p {
+        font-size: 9px;
+    }
+    .div8>img {
+        height: 170px;
+    }
+    .last>h1 {
+        font-size: 12px;
+        margin-right: 42px;
+    }
+}
+
+/* // Screen Size All mobile check */
+@media (max-width: 575px) {
+    body {
+        margin-left: 38px;
+        margin-right: -182px;
+    }
+    .text-group1>h1 {
+        font-size: 14px;
+    }
+    .text-group1>p {
+        font-size: 9px;
+    }
+    .img-group1>img {
+        margin-right: -1px;
+    }
+    .div2>h1 {
+        font-size: 16px;
+    }
+    .div2>p {
+        font-size: 9px;
+    }
+    .div3>h1 {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .div3>p {
+        font-size: 9px;
+    }
+    .div3>h4 {
+        width: 50px;
+        font-size: 7px;
+    }
+    .text-group2>h1 {
+        font-size: 18px;
+    }
+    .text-group2>p {
+        font-size: 8px;
+    }
+    .img-group2>img {
+        width: 141px;
+        margin-top: 15px;
+    }
+    .img-group4>img {
+        width: 93px;
+    }
+}
