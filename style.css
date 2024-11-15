@@ -600,43 +600,120 @@ nav>ul>li:hover{
         margin-left: 38px;
         margin-right: -182px;
     }
+    .logo1{
+        width: 146px;
+    }
+    nav>ul>li {
+        font-size: 11px;
+        padding: 4px;
+    }
+    .div1 {
+        flex-direction: column;
+    }
     .text-group1>h1 {
-        font-size: 14px;
+        font-size: 20px;
     }
     .text-group1>p {
-        font-size: 9px;
-    }
-    .img-group1>img {
-        margin-right: -1px;
-    }
-    .div2>h1 {
-        font-size: 16px;
-    }
-    .div2>p {
-        font-size: 9px;
-    }
-    .div3>h1 {
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 500;
     }
+    .img-group1>img {
+        margin-right: 4px;
+        width: 85px;
+        font-weight: 400;
+    }
+    .img-group1{
+        text-align: center;
+    }
+    .div2>h1 {
+        font-size: 20px;
+    }
+    .div2>h3 {
+        font-size: 12px;
+    }
+    .div2>p {
+        font-size: 11px;
+    }
+    .div3>h1 {
+        font-size: 14px;
+        font-weight: 800;
+    }
     .div3>p {
-        font-size: 9px;
+        font-size: 10px;
+        font-weight: 400;
     }
     .div3>h4 {
-        width: 50px;
-        font-size: 7px;
+        width: 88px;
+        font-size: 10px;
+        font-weight: 800;
+        padding: 4px;
+    }
+    .div4 {
+        flex-direction: column;
     }
     .text-group2>h1 {
-        font-size: 18px;
+        font-size: 20px;
     }
     .text-group2>p {
-        font-size: 8px;
+        font-size: 11px;
+        font-weight: 400;
     }
     .img-group2>img {
-        width: 141px;
-        margin-top: 15px;
+        width: 168px;
+        margin-top: 10px;
+    }
+    .img-group2{
+        text-align: center;
+    }
+    .div5{}
+
+    .text-group3>h1 {
+        font-size: 20px;
+    }
+    .text-group3>p {
+        font-size: 11px;
+    }
+    .img-group3 {
+        flex-direction: column;
+    }
+    .div6{
+        flex-direction: column;
+    }
+    .text-group4>h1 {
+        font-size: 22px;
+    }
+    .text-group4>p {
+        font-size: 13px;
     }
     .img-group4>img {
         width: 93px;
+    }
+    .img-group4{
+        text-align: center;
+    }
+    .img-group4>img {
+        width: 120px;
+    }
+
+    .div7>h1 {
+        font-size: 21px;
+    }
+    .div7>p {
+        font-size: 12px;
+    }
+    .div8{
+        flex-direction: column;
+    }
+    .div8>img {
+        height: 360px;
+        width: 464px;
+        margin-top: 40px;
+    }
+    .last>h1 {
+        font-size: 13px;
+        margin-right: 34px;
+    }
+    .last p {
+        font-size: 11px;
     }
 }
