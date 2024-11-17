@@ -309,6 +309,10 @@ nav>ul>li:hover{
         margin-left: 75px;
         margin-right: 75px;
     }
+    nav>ul {
+    display: flex;
+    align-items: center;
+    }
     .img-group1>img {
         width: 118px;
         margin-top: 20px;
@@ -397,14 +401,14 @@ nav>ul>li:hover{
         margin-right: 60px;
     }
     nav>ul>li{
-        font-size: 8px;
+        font-size: 9px;
         padding: 5px;
     }
     .logo1{
         width: 145px;
     }
     .text-group1>h1{
-        font-size: 18px;
+        font-size: 20px;
     }
     .text-group1>p{
         font-size: 12px;
@@ -415,10 +419,10 @@ nav>ul>li:hover{
         margin-right: 5px;
     }
     .div2>h1{
-        font-size: 22px;
+        font-size: 24px;
     }
     .div2>h3{
-        font-size: 12px;
+        font-size: 14px;
     }
     .div2>p{
         font-size: 12px;
@@ -438,54 +442,54 @@ nav>ul>li:hover{
         font-size: 12px;
     }
     .text-group2>h1 {
-        font-size: 22px;
+        font-size: 24px;
     }
     .text-group2>p {
-        font-size: 11px;
+        font-size: 13px;
     }
     .img-group2>img {
         width: 178px;
         margin-top: 6px;
     }
     .text-group3>h1 {
-        font-size: 22px;
+        font-size: 24px;
     }
     .text-group3>p{
-        font-size: 10px;
+        font-size: 13px;
     }
     .img-group3>.short-img{
         width: 80px;
     }
     .img-group3>.short-img>p {
-        font-size: 10px;
+        font-size: 11px;
     }
     .img-group3 {
         margin: 25px;
     }
     .text-group4>h1{
-        font-size: 22px;
+        font-size: 24px;
     }
     .text-group4>p{
-        font-size: 10px;
+        font-size: 13px;
     }
     .img-group4>img{
         width: 110px;
     }
     .div7>h1{
-        font-size: 22px;
+        font-size: 24px;
     }
     .div7>p{
-        font-size: 10px;
+        font-size: 14px;
+    }
+    .last>h1 {
+        font-size: 15px;
+        margin-right: 37px;
     }
     .last p{
-        font-size: 8px;
+        font-size: 12px;
     }
     .div8>img {
         height: 200px;
-    }
-    .last>h1 {
-        font-size: 14px;
-        margin-right: 52px;
     }
 }
 
@@ -643,7 +647,10 @@ nav>ul>li:hover{
         margin-right: -182px;
     }
     .logo1{
-        width: 190px;
+        width: 210px;
+    }
+    nav>ul{
+        display: inline-block;
     }
     nav>ul>li {
         font-size: 16px;
