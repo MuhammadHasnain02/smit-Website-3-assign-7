@@ -734,9 +734,10 @@ nav>ul>li:hover{
     }
     .img-group3 {
         flex-direction: row;
+        justify-content: center;
     }
     .img-group3>.short-img {
-        width: 40%;
+        width: 48%;
     }
     .img-group3>.short-img>p {
         font-size: 19px;
@@ -772,8 +773,8 @@ nav>ul>li:hover{
         flex-direction: column;
     }
     .div8>img {
-        height: 360px;
-        width: 420px;
+        height: 400px;
+        width: 100%;
         margin-top: 40px;
     }
     .last>h1 {
